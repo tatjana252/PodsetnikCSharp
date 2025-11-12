@@ -34,3 +34,11 @@ Osoba o3 = new Osoba
 };
 o3.Pozdravi();
 Console.WriteLine("Puno ime osobe je: " + o3.PunoIme);
+
+// po novoj sintaksi iz C# 12 mozemo izostaviti naziv Klase prilikom kreiranja objekta ukoliko je tip promenljive jasan (npr. nije var)
+Osoba o4 = new()
+{
+    Ime = "Laza",
+    Prezime = "Lazic"
+};
+o4.Pozdravi();
