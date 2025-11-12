@@ -3,6 +3,12 @@ double realan = 3.14;
 bool aktivan = true;
 char karakter = 'A';
 
+// var je ključna reč koja označava da će tip promenljive biti automatski određen na osnovu dodeljene vrednosti
+// nakon inicijalizacije, tip promenljive ne može biti promenjen
+var promenljiva = "Promenljiva";
+// posto je tip odredjen na osnovu vrednosti, promenljiva je tipa string
+// tako da mozemo koristiti string metode na njoj
+Console.WriteLine(promenljiva.ToUpper());
 
 // DateTime u C#-u je struktura
 // strukture su korisnicki definisani vrednosni tipovi podataka
