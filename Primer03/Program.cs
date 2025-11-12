@@ -79,7 +79,10 @@ string pozdrav = new string(karakteri); // kreira string od niza karaktera
 string interpoliraniString = $"Puno ime je: {punoIme}, a duzina imena je: {ime.Length}";
 Console.WriteLine(interpoliraniString);
 
-
+//verbatim stringovi se oznacavaju sa @ ispred navodnika
+// omogucavaju kreiranje stringova koji sadrze specijalne karaktere kao sto su novi red ili backslash bez potrebe za escape sekvencama
+string putanja = @"C:\Korisnici\Marko\Dokumenti";
+Console.WriteLine(putanja);
 
 //osnovne kolekcije u C#-u su nizovi (arrays) i liste (lists)
 int[] nizBrojeva = new int[5]; 
